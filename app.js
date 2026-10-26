@@ -841,7 +841,7 @@
           logEvent('呼び出し', '新しい呼び出しを受信しました（ThingSpeak entry ' + latestCallEventId + '）');
           // 初回読み込み時の過去イベントでは通知せず、監視開始後に届いた新規イベントだけ通知する。
           if (isNewDuringThisSession && dashboardSettings.notifyCall) {
-            showBrowserNotification('呼び出し通知', '新しい呼び出しがありました。室内監視画面で録音を再生して確認してください。');
+            //showBrowserNotification('呼び出し通知', '新しい呼び出しがありました。室内監視画面で録音を再生して確認してください。');
           }
         }
       }
